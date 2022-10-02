@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { Product } from './models/product.model';
 import { AuthService } from './services/auth.service';
+import { FilesService } from './services/files.service';
 import { UsersService } from './services/users.service';
 
 @Component({
@@ -16,7 +17,8 @@ export class AppComponent {
 
   constructor(
     private AuthService: AuthService,
-    private UsersService: UsersService
+    private UsersService: UsersService,
+    private fileService: FilesService
   ){}
   onLoaded(img: string) {
     console.log('log padre', img);
@@ -51,5 +53,10 @@ export class AppComponent {
     .subscribe(profile =>{
       console.log(profile)
     });
+  }
+  downloadPDF()
+  {
+    this.fileService.getFile("my.pdf",'https://www.demo_app/pdf','application/pdf')
+      .subscribe()
   }
 }

@@ -1581,6 +1581,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/file-saver@^2.0.5":
+  "integrity" "sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ=="
+  "resolved" "https://registry.npmjs.org/@types/file-saver/-/file-saver-2.0.5.tgz"
+  "version" "2.0.5"
+
 "@types/http-proxy@^1.17.8":
   "integrity" "sha512-QsbSjA/fSk7xB+UXlCT3wHBy5ai9wOcNDWwZAtud+jXhwOM3l+EYZh8Lng4+/6n8uar0J7xILzqftJdJ/Wdfkw=="
   "resolved" "https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.9.tgz"
@@ -3076,6 +3081,11 @@
   "version" "3.2.0"
   dependencies:
     "escape-string-regexp" "^1.0.5"
+
+"file-saver@^2.0.5":
+  "integrity" "sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA=="
+  "resolved" "https://registry.npmjs.org/file-saver/-/file-saver-2.0.5.tgz"
+  "version" "2.0.5"
 
 "fill-range@^7.0.1":
   "integrity" "sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ=="
